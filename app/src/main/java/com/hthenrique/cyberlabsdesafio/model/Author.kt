@@ -9,10 +9,10 @@ data class Author(
     var author: String? = null,
 
     @SerializedName("url")
-    val url: String? = null,
+    var url: String? = null,
 
     @SerializedName("timestamp")
-    val timestamp: Any? = null
+    var timestamp: Any? = null
 ){
     override fun toString(): String {
         return "Author(author=$author, url=$url, timestamp=$timestamp)"

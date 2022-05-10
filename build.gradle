@@ -5,6 +5,9 @@ buildscript {
         okhttp_version = '4.5.0'
         activity_version = '1.4.0'
         room_version = '2.4.2'
+        junit_jupter_version = '5.7.0'
+        mockito_version = '3.3.3'
+        mockito_kotlin = '3.2.0'
     }
 }
 
